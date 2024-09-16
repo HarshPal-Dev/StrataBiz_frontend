@@ -5,6 +5,8 @@ import './index.css';
 import App from './App';
 import theme from './theme'; // Import your custom theme
 import reportWebVitals from './reportWebVitals';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; // Import the CSS
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +15,7 @@ root.render(
       <CSSReset />
       <App />
     </ChakraProvider>
+    <ToastContainer />
   </React.StrictMode>
 );
 

@@ -6,8 +6,7 @@ import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
-import SignIn from './components/Auth/SignIn';
-import SignUp from './components/Auth/SignUp';
+import JoinUs from './components/Auth/JoinUs';
 import ModalComponent from './components/ModalComponent';
 import theme from './theme'; // Import the custom theme
 import EdgeBall from "./components/EdgeBall";
@@ -25,8 +24,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/signin" element={<SignIn />} />
-              <Route path="/signup" element={<SignUp />} />
+              <Route path="/JoinUs" element={<JoinUs />} />
             </Routes>
             <ModalComponent />
           </Box>

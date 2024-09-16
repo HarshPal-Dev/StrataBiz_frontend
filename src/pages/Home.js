@@ -389,7 +389,7 @@ const HomePage = () => {
               <Text fontSize="lg">
                 Take the first step towards a brighter future. Become a member of our business consulting club today!
               </Text>
-              <Button colorScheme="teal" size="lg" bg="white" color="teal.800" as={Link} to="/signup" ml={4} _hover={{ bg: 'gray.300' }}>
+              <Button colorScheme="teal" size="lg" bg="white" color="teal.800" as={Link} to="/joinUs" ml={4} _hover={{ bg: 'gray.300' }}>
                 Join Now
               </Button>
             </VStack>

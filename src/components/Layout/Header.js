@@ -49,11 +49,11 @@ const Header = () => {
           <Button color='#f7fafc' as={Link} to="/dashboard" size={isMobile ? 'sm' : 'md'} ml={4} _hover={{ bg: '#073669', color: 'white' }} bg="transparent">
             Read
           </Button>
-          <Button color='#f7fafc' as={Link} to="/signin" size={isMobile ? 'sm' : 'md'} ml={4} _hover={{ bg: '#073669', color: 'white' }} bg="transparent">
+          {/* <Button color='#f7fafc' as={Link} to="/signin" size={isMobile ? 'sm' : 'md'} ml={4} _hover={{ bg: '#073669', color: 'white' }} bg="transparent">
             Sign In
-          </Button>
-          <Button color='#f7fafc' as={Link} to="/signup" size={isMobile ? 'sm' : 'md'} ml={4} _hover={{ bg: '#073669', color: 'white' }} bg="transparent">
-            Sign Up
+          </Button> */}
+          <Button color='#f7fafc' as={Link} to="/JoinUs" size={isMobile ? 'sm' : 'md'} ml={4} _hover={{ bg: '#073669', color: 'white' }} bg="transparent">
+            Join Us
           </Button>
         </Flex>
     </Box>
